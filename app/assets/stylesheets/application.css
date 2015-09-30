@@ -171,23 +171,17 @@ html, body {
   min-height: 100%;
 }
 
-#the-middle-part {
-  /*overflow:auto;*/
-  position: relative;
-  padding-bottom: 50px;
-  min-height: 100%;
+#main {
+  overflow:auto;
+  padding-bottom: 200px;
 }  /* must be same height as the footer */
 
 footer {
-  position: absolute;
-  bottom: 0;
-  margin-top: -50px; /* negative value of footer height */
-  height: 200px;
-  /*clear:both;*/
+  position: relative;
+  margin-top: -200px; /* negative value of footer height */
+  height: 230px;
+  clear:both;
 }
-
-
-
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
         display: none !important;
